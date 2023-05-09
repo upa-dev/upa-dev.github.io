@@ -31,6 +31,16 @@ module.exports = {
         '80v': '80vh',
         '90v': '90vh',
         '100v': '100vh'
+      },
+      "borderRadius": {
+        "none": "0",
+        "xs": "0.3125rem",
+        "sm": "0.5rem",
+        "default": "1rem",
+        "lg": "1.8125rem",
+        "xl": "2rem",
+        "2xl": "2.5rem",
+        "full": "9999px"
       }
     },
   },
