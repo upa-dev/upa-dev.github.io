@@ -67,11 +67,9 @@
     @apply bg-emerald-300 p-4;
   }
 
-  /* Add this media query */
   @media (min-width: 1024px) {
     .hamburger-left {
       @apply hidden;
     }
   }
-
 }
