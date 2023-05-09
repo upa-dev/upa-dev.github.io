@@ -18,7 +18,7 @@
   }
 
   .contact-btn {
-    @apply py-2 px-4 bg-emerald-300 text-white rounded;
+    @apply py-2 px-4 bg-accent text-white rounded;
   }
 
   .nav-container {
@@ -67,6 +67,6 @@
   }
 
   .mobile-menu-bg {
-    @apply bg-emerald-300 p-4;
+    @apply bg-background-primary p-4;
   }
 }
