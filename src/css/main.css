@@ -12,4 +12,66 @@
     @apply fill-accent;
     height: 38px;
   }
+
+  .nav-item {
+    @apply text-white py-2 px-4;
+  }
+
+  .contact-btn {
+    @apply py-2 px-4 bg-emerald-300 text-white rounded;
+  }
+
+  .nav-container {
+    @apply ml-auto mr-72 my-2 space-x-4 pt-4 pb-4 pr-4 pl-4;
+  }
+
+  .nav-desktop {
+    @apply hidden;
+  }
+
+  .logo-container {
+    @apply py-4 px-14;
+  }
+
+
+  .nav-mobile {
+    @apply block;
+  }
+
+  @media (min-width: 768px) {
+    .nav-desktop {
+      @apply block;
+    }
+
+    .nav-mobile {
+      @apply hidden;
+    }
+  }
+
+  .logo-mobile {
+    @apply mx-auto;
+  }
+
+  @media (min-width: 768px) {
+    .logo-mobile {
+      @apply mx-0;
+    }
+
+  }
+
+  .hamburger-left {
+    @apply absolute py-6 left-6;
+  }
+
+  .mobile-menu-bg {
+    @apply bg-emerald-300 p-4;
+  }
+
+  /* Add this media query */
+  @media (min-width: 1024px) {
+    .hamburger-left {
+      @apply hidden;
+    }
+  }
+
 }
