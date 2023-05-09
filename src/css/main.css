@@ -57,6 +57,9 @@
       @apply mx-0;
     }
 
+    .hamburger-left {
+      @apply hidden;
+    }
   }
 
   .hamburger-left {
@@ -65,11 +68,5 @@
 
   .mobile-menu-bg {
     @apply bg-emerald-300 p-4;
-  }
-
-  @media (min-width: 1024px) {
-    .hamburger-left {
-      @apply hidden;
-    }
   }
 }
