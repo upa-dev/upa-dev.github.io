@@ -1,8 +1,9 @@
 doctype html
 include components/head
-body(class='bg-background-primary ')
-  div(class='container bg-hero bg-repeat-x')
+body(class='bg-background-primary')
+  div(class='bg-hero h-hero align-middle')
     include components/header
-    include components/content
-    include components/footer
+    include components/hero
+  include components/content
+  include components/footer
   script(src='js/main.js')
