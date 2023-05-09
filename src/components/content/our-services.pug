@@ -1,46 +1,56 @@
-div(class='bg-background-secondary')
-  section(class='container ')
-    h3 Our services
-    h2 What we can do
-
-    section
-      include our-services/pencil-and-ruler.svg
-      h4 Infrastructure and Network Design
-      p
-        | We provide end-to-end network design services, ensuring seamless connectivity and optimized performance for your
-        | organization&apos;s IT infrastructure.
-
-    section
+//- div(class='bg-background-secondary mt-60 rounded-2xl')
+section(class='container text-white bg-background-secondary h-75v pt-10 pl-7 rounded-2xl')
+  h3(class='text-accent text-sm py-2') Our services
+  h2(class='text-3xl py-2') What we can do
+  //- div(class='relative w-full')
+  div(class='flex')
+    section(class='bg-secondary container pl-8 pt-10 pr-5 mr-7 aspect-square rounded-xl w-90v')
       include our-services/cloud.svg
-      h4 Cloud Migration and Management
-      p
+      h4(class='text-2xl mt-5') Cloud Migration and Management
+      div(class='border-b my-3')
+      p(class='leading-5')
         | Our team helps businesses transition to cloud-based solutions, ensuring smooth migration and effective ongoing
         | management of cloud services.
 
-    section
-      include our-services/shield.svg
-      h4 Cyber security and Data Protection
-      p
-        | We prioritize your data security by implementing robust security measures and best practices to protect your
-        | organization from cyber threats.
+    //- section(class='bg-secondary container pl-8 pt-10 pr-5 mr-6 aspect-square rounded-xl w-90v')
+    //-   include our-services/pencil-and-ruler.svg
+    //-   h4(class='text-2xl mt-5') Infrastructure and Network Design
+    //-   div(class='border-b my-3')
+    //-   p(class='leading-5')
+    //-     | We provide end-to-end network design services, ensuring seamless connectivity and optimized performance for your
+    //-     | organization&apos;s IT infrastructure.
 
-    section
-      include our-services/cogs.svg
-      h4 IT Strategy and Digital Transformation
-      p
-        | Our experts work closely with you to develop comprehensive IT strategies, driving digital transformation and
-        | enhancing your organization's competitive edge.
+    //- section
+    //-   include our-services/cloud.svg
+    //-   h4 Cloud Migration and Management
+    //-   p
+    //-     | Our team helps businesses transition to cloud-based solutions, ensuring smooth migration and effective ongoing
+    //-     | management of cloud services.
 
-    section
-      include our-services/components.svg
-      h4 Custom Software Development
-      p
-        | We specialize in crafting tailored software solutions to meet your unique business requirements, streamlining
-        | processes, and improving efficiency.
+    //- section
+    //-   include our-services/shield.svg
+    //-   h4 Cyber security and Data Protection
+    //-   p
+    //-     | We prioritize your data security by implementing robust security measures and best practices to protect your
+    //-     | organization from cyber threats.
 
-    section
-      include our-services/livebuoy.svg
-      h4 Technical Support and Maintenance
-      p
-        | Our dedicated support team is available to address any technical issues and provide ongoing maintenance,
-        | ensuring the smooth operation of your IT systems.
+    //- section
+    //-   include our-services/cogs.svg
+    //-   h4 IT Strategy and Digital Transformation
+    //-   p
+    //-     | Our experts work closely with you to develop comprehensive IT strategies, driving digital transformation and
+    //-     | enhancing your organization's competitive edge.
+
+    //- section
+    //-   include our-services/components.svg
+    //-   h4 Custom Software Development
+    //-   p
+    //-     | We specialize in crafting tailored software solutions to meet your unique business requirements, streamlining
+    //-     | processes, and improving efficiency.
+
+    //- section
+    //-   include our-services/livebuoy.svg
+    //-   h4 Technical Support and Maintenance
+    //-   p
+    //-     | Our dedicated support team is available to address any technical issues and provide ongoing maintenance,
+    //-     | ensuring the smooth operation of your IT systems.
