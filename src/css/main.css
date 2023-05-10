@@ -29,11 +29,6 @@
     @apply hidden;
   }
 
-  .logo-container {
-    @apply py-4 px-14;
-  }
-
-
   .nav-mobile {
     @apply block;
   }
@@ -49,12 +44,12 @@
   }
 
   .logo-mobile {
-    @apply mx-auto;
+    @apply fixed py-4 left-1/2 top-0.5 translate-x-n50;
   }
 
   @media (min-width: 768px) {
-    .logo-mobile {
-      @apply mx-0;
+    .logo-desktop {
+      @apply fixed px-4 left-8 translate-x-0;
     }
 
     .hamburger-left {

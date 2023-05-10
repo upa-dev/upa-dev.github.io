@@ -44,6 +44,9 @@ module.exports = {
         "xl": "2rem",
         "2xl": "2.5rem",
         "full": "9999px"
+      },
+      translate: {
+        "n50": "-50%"
       }
     },
   },
