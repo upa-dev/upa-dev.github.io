@@ -31,7 +31,8 @@ module.exports = {
         '75v': '75vh',
         '80v': '80vh',
         '90v': '90vh',
-        '100v': '100vh'
+        '100v': '100vh',
+        '110v': '110vh',
       },
       "borderRadius": {
         "none": "0",
