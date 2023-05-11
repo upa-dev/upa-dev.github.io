@@ -37,7 +37,7 @@
     @apply fixed py-4 left-1/2 top-0.5 translate-x-n50;
   }
 
-  .hamburger-left {
+  .hamburger {
     @apply absolute py-6 left-6;
   }
 
@@ -58,7 +58,7 @@
       @apply px-4 left-8 translate-x-0;
     }
 
-    .hamburger-left {
+    .hamburger {
       @apply hidden;
     }
   }
