@@ -41,13 +41,7 @@
     .nav-mobile {
       @apply hidden;
     }
-  }
 
-  .logo-mobile {
-    @apply fixed py-4 left-1/2 top-0.5 translate-x-n50;
-  }
-
-  @media (min-width: 768px) {
     .logo-desktop {
       @apply fixed px-4 left-8 translate-x-0;
     }
@@ -55,7 +49,10 @@
     .hamburger-left {
       @apply hidden;
     }
+  }
 
+  .logo-mobile {
+    @apply fixed py-4 left-1/2 top-0.5 translate-x-n50;
   }
 
   .hamburger-left {
