@@ -33,10 +33,6 @@
     @apply absolute py-6 left-6;
   }
 
-  .mobile-menu-bg {
-    @apply bg-background-primary p-4;
-  }
-
   @media (min-width: 768px) {
     .logo {
       @apply px-4 left-8 translate-x-0;
