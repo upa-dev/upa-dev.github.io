@@ -33,25 +33,7 @@
     @apply block;
   }
 
-  @media (min-width: 768px) {
-    .nav-desktop {
-      @apply block;
-    }
-
-    .nav-mobile {
-      @apply hidden;
-    }
-
-    .logo-desktop {
-      @apply fixed px-4 left-8 translate-x-0;
-    }
-
-    .hamburger-left {
-      @apply hidden;
-    }
-  }
-
-  .logo-mobile {
+  .logo {
     @apply fixed py-4 left-1/2 top-0.5 translate-x-n50;
   }
 
@@ -63,4 +45,21 @@
     @apply bg-background-primary p-4;
   }
 
+  @media (min-width: 768px) {
+    .nav-desktop {
+      @apply block;
+    }
+
+    .nav-mobile {
+      @apply hidden;
+    }
+
+    .logo {
+      @apply px-4 left-8 translate-x-0;
+    }
+
+    .hamburger-left {
+      @apply hidden;
+    }
+  }
 }
