@@ -1,101 +1,18 @@
-section(id='services' class='text-white flex bg-background-secondary h-75v rounded-2xl md:h-110v')
-  div(class='container md:pl-52')
-    div(class='flex flex-col md:m-auto')
-      div(class='flex')
-        div(class='md:w-1/2 md:my-auto')
-          div(class='md:w-1/3 md:mx-auto')
-            h3(class='text-accent text-xs py-2') OUR SERVICES
-            h2(class='text-3xl py-2') What we can do
-        div(class='md:w-1/2')
-      div(class='hidden md:block space-y-4')
-        div(class='flex justify-center space-x-4') 
-          section(class='flex flex-col bg-secondary pl-8 pt-10 pr-5 pb-10 aspect-square rounded-xl w-80')
-            include our-services/cloud.svg
-            h4(class='text-2xl mt-5') Cloud Migration and Management
-            div(class='border-b my-3')
-            p(class='leading-5')
-              | Our team helps businesses transition to cloud-based solutions, ensuring smooth migration and effective ongoing
-              | management of cloud services.
-
-          section(class='flex flex-col bg-secondary pl-8 pt-10 pr-5 pb-10  aspect-square rounded-xl w-80')
-            include our-services/cloud.svg
-            h4(class='text-2xl mt-5') Infrastructure and Network Design
-            div(class='border-b my-3')
-            p(class='leading-5')
-              | We provide end-to-end network design services, ensuring seamless connectivity and optimized performance for your
-              | organization&apos;s IT infrastructure.
-
-          section(class='flex flex-col bg-secondary pl-8 pt-10 pr-5 pb-10  aspect-square rounded-xl w-80')
-            include our-services/cloud.svg
-            h4(class='text-2xl mt-5') Infrastructure and Network Design
-            div(class='border-b my-3')
-            p(class='leading-5')
-              | We provide end-to-end network design services, ensuring seamless connectivity and optimized performance for your
-              | organization&apos;s IT infrastructure.
-        div(class='flex justify-center space-x-4')
-          section(class='flex flex-col bg-secondary pl-8 pt-10 pr-5 pb-10  aspect-square rounded-xl w-80')
-            include our-services/cloud.svg
-            h4(class='text-2xl mt-5') Infrastructure and Network Design
-            div(class='border-b my-3')
-            p(class='leading-5')
-              | We provide end-to-end network design services, ensuring seamless connectivity and optimized performance for your
-              | organization&apos;s IT infrastructure.
-              
-          section(class='flex flex-col bg-secondary pl-8 pt-10 pr-5 pb-10  aspect-square rounded-xl w-80')
-            include our-services/cloud.svg
-            h4(class='text-2xl mt-5') Infrastructure and Network Design
-            div(class='border-b my-3')
-            p(class='leading-5')
-              | We provide end-to-end network design services, ensuring seamless connectivity and optimized performance for your
-              | organization&apos;s IT infrastructure.
-              
-          section(class='flex flex-col bg-secondary pl-8 pt-10 pr-5 pb-10  aspect-square rounded-xl w-80')
-            include our-services/cloud.svg
-            h4(class='text-2xl mt-5') Infrastructure and Network Design
-            div(class='border-b my-3')
-            p(class='leading-5')
-              | We provide end-to-end network design services, ensuring seamless connectivity and optimized performance for your
-              | organization&apos;s IT infrastructure.
-          
-    //- section(class='bg-secondary container pl-8 pt-10 pr-5 mr-6 aspect-square rounded-xl w-90v')
-    //-   include our-services/pencil-and-ruler.svg
-    //-   h4(class='text-2xl mt-5') Infrastructure and Network Design
-    //-   div(class='border-b my-3')
-    //-   p(class='leading-5')
-    //-     | We provide end-to-end network design services, ensuring seamless connectivity and optimized performance for your
-    //-     | organization&apos;s IT infrastructure.
-
-    //- section
-    //-   include our-services/cloud.svg
-    //-   h4 Cloud Migration and Management
-    //-   p
-    //-     | Our team helps businesses transition to cloud-based solutions, ensuring smooth migration and effective ongoing
-    //-     | management of cloud services.
-
-    //- section
-    //-   include our-services/shield.svg
-    //-   h4 Cyber security and Data Protection
-    //-   p
-    //-     | We prioritize your data security by implementing robust security measures and best practices to protect your
-    //-     | organization from cyber threats.
-
-    //- section
-    //-   include our-services/cogs.svg
-    //-   h4 IT Strategy and Digital Transformation
-    //-   p
-    //-     | Our experts work closely with you to develop comprehensive IT strategies, driving digital transformation and
-    //-     | enhancing your organization's competitive edge.
-
-    //- section
-    //-   include our-services/components.svg
-    //-   h4 Custom Software Development
-    //-   p
-    //-     | We specialize in crafting tailored software solutions to meet your unique business requirements, streamlining
-    //-     | processes, and improving efficiency.
-
-    //- section
-    //-   include our-services/livebuoy.svg
-    //-   h4 Technical Support and Maintenance
-    //-   p
-    //-     | Our dedicated support team is available to address any technical issues and provide ongoing maintenance,
-    //-     | ensuring the smooth operation of your IT systems.
+section(id='services' class='bg-background-secondary rounded-2xl')
+  div(class='flex flex-col md:flex-row h-75v md:h-110v')
+    div(class='md:w-1/6')
+    div(class='my-auto md:w-4/6')
+      div(class='flex flex-col md:m-auto')
+        div
+          h3(class='text-accent text-xs') OUR SERVICES
+          h2(class='font-bold text-4xl md:text-5xl') What we can do
+        div(class='hidden md:block md:space-y-4')
+          div(class='flex space-x-4 justify-around') 
+            include our-services/service.pug
+            include our-services/service.pug
+            include our-services/service.pug
+          div(class='flex space-x-4 justify-around') 
+            include our-services/service.pug
+            include our-services/service.pug
+            include our-services/service.pug
+    div(class='md:w-1/6')
