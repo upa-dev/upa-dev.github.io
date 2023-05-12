@@ -13,6 +13,10 @@
     height: 38px;
   }
 
+  .nav-container {
+    @apply mx-auto mr-96 my-2 space-x-4 pt-4 pb-4 pr-4 pl-4;
+  }
+
   .nav-item {
     @apply text-white py-2 px-4;
   }
@@ -21,21 +25,7 @@
     @apply py-2 px-4 bg-accent text-white rounded;
   }
 
-  .nav-container {
-    @apply ml-auto mr-96 my-2 space-x-4 pt-4 pb-4 pr-4 pl-4;
-  }
-
-  .logo {
-    @apply fixed py-4 left-1/2 top-0.5 translate-x-n50;
-  }
-
   .hamburger {
-    @apply absolute py-6 left-6;
-  }
-
-  @media (min-width: 768px) {
-    .logo {
-      @apply px-4 left-8 translate-x-0;
-    }
+    @apply fixed m-8 z-30;
   }
 }
