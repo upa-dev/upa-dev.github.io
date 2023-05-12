@@ -12,6 +12,7 @@ module.exports = {
         'accent': '#04E0BD',
         'background-primary': '#21272B',
         'background-secondary': '#263238',
+        'header': 'rgb(var(--color-primary) / 0.5)',
       },
       backgroundImage: {
         'hero': "url('/src/img/hero.webp')",
@@ -26,6 +27,7 @@ module.exports = {
         '20v': '20vh',
         '30v': '30vh',
         '40v': '40vh',
+        '45v': '45vh',
         '50v': '50vh',
         '60v': '60vh',
         '70v': '70vh',
