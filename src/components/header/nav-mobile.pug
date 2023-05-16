@@ -1,11 +1,13 @@
-//- div(class='hamburger fixed top-0.5 left-8 z-50 md:hidden')
-div(class='hamburger md:hidden')
-  button(id='hamburger', class='focus:outline-none')
+div(class='fixed z-30 md:hidden')
+  button(id='hamburger', class='m-9 focus:outline-none')
     include svg/menu.svg
 
-  div(id='mobile-menu', class='hidden mt-2 bg-background-primary p-4')
-    a(href='#home', class='nav-item block') Home
-    a(href='#about', class='nav-item block') About us
-    a(href='#services', class='nav-item block') Services
-    a(href='#testimonial', class='nav-item block') Testimonial
-    a(href='#contact', class='contact-btn block') Contact US
+  div(id='mobile-menu', class='fixed flex justify-between flex-col h-80v top-24 bg-background-primary px-10 py-6 transition-transform duration-500 ease-in-out -translate-x-full')
+    div(class='my-auto space-y-4')
+      span(class='text-gray') UPA! dev.
+      a(href='#home', class='nav-item block') Home
+      a(href='#about', class='nav-item block') About us
+      a(href='#services', class='nav-item block') Services
+      a(href='#testimonial', class='nav-item block') Testimonial
+      a(href='#contact', class='nav-item block') Contact US
+    include ../footer/trademark.pug
