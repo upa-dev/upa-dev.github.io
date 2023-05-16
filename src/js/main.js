@@ -1,9 +1,10 @@
 $(document).ready(function () {
-  $('.nav-item, .contact-btn').click(function (e) {
+  $('nav a').click(function (e) {
     e.preventDefault();
     $('html, body').animate({
       scrollTop: $($.attr(this, 'href')).offset().top
     }, 700, 'swing');
+    // $('#mobile-menu').toggleClass('-translate-x-full');
   });
 
   $('#hamburger').click(function () {

@@ -12,8 +12,4 @@
     @apply fill-accent;
     height: 38px;
   }
-
-  .contact-btn {
-    @apply py-2 px-4 bg-accent text-white rounded;
-  }
 }
