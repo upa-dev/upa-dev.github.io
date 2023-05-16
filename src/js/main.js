@@ -1,8 +1,13 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const hamburger = document.getElementById('hamburger');
-  const mobileMenu = document.getElementById('mobile-menu');
+$(document).ready(function () {
+  $('#hamburger').click(function (e) {
+    $('#mobile-menu').toggle()
+  })
 
-  hamburger.addEventListener('click', () => {
-    mobileMenu.classList.toggle('hidden');
+  $('.nav-item, .contact-btn').click(function (e) {
+    e.preventDefault();
+    $('html, body').animate({
+      scrollTop: $($.attr(this, 'href')).offset().top
+    }, 700, 'swing');
+    $('#mobile-menu').toggle();
   });
 });
