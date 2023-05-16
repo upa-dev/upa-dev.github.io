@@ -4,7 +4,7 @@ $(document).ready(function () {
     $('html, body').animate({
       scrollTop: $($.attr(this, 'href')).offset().top
     }, 700, 'swing');
-    // $('#mobile-menu').toggleClass('-translate-x-full');
+    $('#mobile-menu').toggleClass('translate-x-0');
   });
 
   $('#hamburger').click(function () {
