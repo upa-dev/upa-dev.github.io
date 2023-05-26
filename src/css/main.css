@@ -10,6 +10,6 @@
 @layer components {
   .service-icon {
     @apply fill-accent;
-    height: 38px;
+    height: 46px;
   }
 }
