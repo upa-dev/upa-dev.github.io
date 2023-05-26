@@ -1,10 +1,11 @@
 doctype html
-include components/head
-body(class='bg-background-primary text-white')
-  include components/header
-  include components/hero
-  include components/content
-  include components/footer
+html(class='scroll-smooth')
+  include components/head
+  body(class='bg-background-primary text-white')
+    include components/header
+    include components/hero
+    include components/content
+    include components/footer
 
-  script(src="https://code.jquery.com/jquery-3.6.0.min.js")
-  script(src='js/main.js')
+    script(src="https://code.jquery.com/jquery-3.6.0.min.js")
+    script(src='js/main.js')
