@@ -1,13 +1,17 @@
-$(document).ready(function () {
-  $('nav a').click(function (e) {
+$(() => {
+  $('nav a').on('click', (e) => {
     e.preventDefault();
+
+    const target = $.attr(e.target, 'href');
+
     $('html, body').animate({
-      scrollTop: $($.attr(this, 'href')).offset().top
+      scrollTop: $(target).offset().top
     }, 700, 'swing');
+
     $('#mobile-menu').toggleClass('translate-x-0');
   });
 
-  $('#hamburger').click(function () {
+  $('#hamburger').click(() => {
     $('#mobile-menu').toggleClass('translate-x-0');
   });
 });
