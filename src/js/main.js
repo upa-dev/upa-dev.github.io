@@ -1,3 +1,7 @@
+import jQuery from 'jquery';
+
+const $ = jQuery;
+
 $(() => {
   $('nav a').on('click', (e) => {
     e.preventDefault();
