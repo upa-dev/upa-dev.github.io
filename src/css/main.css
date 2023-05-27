@@ -12,4 +12,9 @@
     @apply fill-accent;
     height: 46px;
   }
+
+  .social-icon {
+    @apply fill-accent;
+    height: 26px;
+  }
 }
