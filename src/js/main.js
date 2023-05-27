@@ -10,7 +10,7 @@ $(() => {
 
     $('html, body').animate({
       scrollTop: $(target).offset().top
-    }, 700, 'swing');
+    }, 300, 'swing');
 
     $('#mobile-menu').toggleClass('translate-x-0');
   });
