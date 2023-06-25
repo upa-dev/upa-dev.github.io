@@ -1,9 +1,32 @@
 section(id='contact')
-  div(class='flex flex-col md:flex-row justify-center bg-secondary rounded-t-2xl h-110v md:h-60v')
-    div(class='md:w-2/6 my-auto p-4 md:p-0 md:pr-20 space-y-4')
+  div(class='flex flex-col p-6 md:flex-row justify-center bg-secondary rounded-t-2xl h-80v md:h-60v')
+    div(class='md:w-2/6 my-auto md:p-0 md:pr-20 space-y-4')
         h3(class='text-xs') CONTACT US
         h2(class='font-bold text-4xl md:text-5xl') Get in touch
         p(class='leading-5') Feel free to contact us any time. We will get back to you as soon as we can.
-    div(class='md:w-2/6 my-auto md:my-auto')
-      div(class='md:mx-auto')
-        span contactform
+    div(class='flex flex-col justify-center my-auto bg-background-primary rounded-lg h-50v md:my-auto md:w-2/6')
+      form(action='mailto:castromanuelorlando@gmail.com?subject=Testing UPA contact form' method='post' enctype='text/plain')
+        div(class='flex flex-col space-y-4 p-6 md:mx-auto')
+ 
+          div(class='flex flex-row')
+            div(class='flex flex-col w-1/2 pr-2')
+              span(class='text-xs') First Name
+              input(class='bg-background-secondary h-8 rounded-sm' type='text')
+            div(class='flex flex-col w-1/2 pl-2')
+              span(class='text-xs') Last Name
+              input(class='bg-background-secondary h-8 rounded-sm' type='text')
+
+          div(class='flex flex-col')
+            span(class='text-xs') Company Name
+            input(class='bg-background-secondary h-8 rounded-sm' type='text')
+
+          div(class='flex flex-col')
+            span(class='text-xs') Email
+            input(class='bg-background-secondary h-8 rounded-sm' type='text')
+
+          div(class='flex flex-col')
+            span(class='text-xs') Message
+            input(class='bg-background-secondary h-24 rounded-sm' type='text')
+
+          i(class="material-icons") add
+          input(class='bg-accent h-12 text-black rounded-xl' type='submit' value='ICONITO Send message')
