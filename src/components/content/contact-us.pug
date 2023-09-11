@@ -7,28 +7,31 @@ section(id='contact')
     div(class='relative md:w-1/4')
       div(class='absolute -translate-x-16 translate-y-20 bg-accent w-32 h-32 rounded-full')
       div(class='flex flex-col justify-center my-auto bg-background-primary rounded-lg h-50v z-10 relative md:my-auto')
-        form(action='mailto:hello@upa.dev?subject=Hi!' method='post' enctype='text/plain')
+        form(action='https://api.web3forms.com/submit' method='POST')
+          input(type='hidden' name='access_key' value='cfe4435d-b477-43a0-a428-373551ea3af5')
+          input(type='hidden' name='subject' value='Hello!')
+
           div(class='flex flex-col space-y-4 p-6 md:mx-auto')
 
             div(class='flex flex-row')
               div(class='flex flex-col w-1/2 pr-2')
                 span(class='text-xs') First Name
-                input(class='bg-background-secondary h-8 rounded-sm' type='text')
+                input(class='bg-background-secondary h-8 rounded-sm' name='name' type='text')
               div(class='flex flex-col w-1/2 pl-2')
                 span(class='text-xs') Last Name
-                input(class='bg-background-secondary h-8 rounded-sm' type='text')
+                input(class='bg-background-secondary h-8 rounded-sm' name='surname' type='text')
 
             div(class='flex flex-col')
               span(class='text-xs') Company Name
-              input(class='bg-background-secondary h-8 rounded-sm' type='text')
-
+              input(class='bg-background-secondary h-8 rounded-sm' name='from_name' type='text')
+            input(class='bg-background-secondary h-8 rounded-sm' name='from_name' type='hidden' value='Company')
             div(class='flex flex-col')
               span(class='text-xs') Email
-              input(class='bg-background-secondary h-8 rounded-sm' type='text')
+              input(class='bg-background-secondary h-8 rounded-sm' name='email' type='email')
 
             div(class='flex flex-col')
               span(class='text-xs') Message
-              input(class='bg-background-secondary h-24 rounded-sm' type='text')
+              input(class='bg-background-secondary h-24 rounded-sm' name='message' type='text')
 
             button(class='bg-accent h-12 text-black rounded-xl' type='submit')
               div(class='flex align-center justify-center my-auto space-x-2')
